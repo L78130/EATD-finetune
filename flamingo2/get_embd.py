@@ -200,7 +200,7 @@ if __name__ == "__main__":
     parser.add_argument("--output-dir", type=str, default="hidden_states", help="Directory to save .pt files")
     parsed_args = parser.parse_args()
 
-    snapshot_download(repo_id="nvidia/audio-flamingo-2-0.5B", local_dir="./", token="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")
+    snapshot_download(repo_id="nvidia/audio-flamingo-2-0.5B", local_dir="./", token="hugging face access token")
 
     config = yaml.load(open("configs/inference.yaml"), Loader=yaml.FullLoader)
 
