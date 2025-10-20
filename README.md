@@ -21,4 +21,4 @@ run python /your_dir/AFLA_train.py
 |:------|:-------------|
 | Qwen2 | 75.11% |
 | CLAP  | 81.86% |
-| Model | 77.61% |
+| AudioFlamingo2 | 77.61% |
