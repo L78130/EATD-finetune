@@ -1,7 +1,4 @@
 # 🎧 Audio-Text Model Training
-
-This repository contains code for training and evaluating an audio-text model based on the Flamingo-style multimodal architecture.
-
 ---
 ### Models used
 Qwen2-audio-7B(used bitsandbytes config to avoid GPU memory exceeding   
